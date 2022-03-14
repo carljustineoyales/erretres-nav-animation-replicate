@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Errestes Navigation</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body id="body">
+  <div id="app">
+    <header>
+
+      <nav class="nav" id="nav">
+        <div class="logo" id="logo">
+          <a href="/"><img src="assets/images/vector/LOGO.svg" alt="logo"></a>
+
+        </div>
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a class="nav__link" href="#">Work</a>
+          </li>
+          <li class="nav__items">
+            <label for="menu" id="menuIcon" class="menuIcon">
+              <div class="menuIcon__container">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </label>
+            <input type="checkbox" name="menu" id="menu" onclick="toggleMenu()" unchecked>
+          </li>
+        </ul>
+      </nav>
+      <div class="floatingImgs" id="floatingImgs">
+        <img src="assets/images/vector/LOGO-1.svg" alt="">
+        <img src="assets/images/vector/LOGO-2.svg" alt="">
+        <img src="assets/images/vector/LOGO-3.svg" alt="">
+      </div>
+
+
+    </header>
+    <div id="drawer" class="drawer">
+      <nav class="drawerNav">
+        <ul class="drawerNav__list">
+          <li class="drawerNav__items active">
+            <a href="#">Home</a>
+
+          </li>
+          <li class="drawerNav__items">
+            <a href="#">Works</a>
+
+          </li>
+          <li class="drawerNav__items">
+            <a href="#">About</a>
+
+          </li>
+          <li class="drawerNav__items">
+            <a href="#">Contact Us</a>
+
+          </li>
+        </ul>
+      </nav>
+      <div class="links">
+        <div class="links__sns">
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+        <div class="links__sns">
+          <a href="#">Terms & Condition</a>
+
+        </div>
+      </div>
+    </div>
+    <main>
+      <video width="100%" height="100%" autoplay muted loop>
+        <source src="assets/video/HomeScreen.mp4">
+      </video>
+    </main>
+    <footer>
+      <h1>this is a text</h1>
+    </footer>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
